@@ -9,5 +9,5 @@ echo "Creating symlink to bash_profile in home directory."
 ln -sf $dir/bash_profile ~/.bash_profile
 
 echo "Creating symlink to vimrc in home/config/nvim directory."
+mkdir -p ~/.config/nvim/
 ln -sf $dir/init.vim ~/.config/nvim/init.vim 
-
