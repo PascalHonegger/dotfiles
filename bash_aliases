@@ -1,0 +1,7 @@
+alias ls='ls -G'
+alias ll='ls -alFG'
+alias la='ls -AG'
+alias l='ls -CFG'
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
