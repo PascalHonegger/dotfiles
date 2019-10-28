@@ -60,6 +60,7 @@ if ! shopt -oq posix; then
 fi
 
 export EDITOR=nvim
+export PATH="/usr/local/sbin:$PATH"
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

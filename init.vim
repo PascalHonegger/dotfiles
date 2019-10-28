@@ -9,6 +9,7 @@ endif
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'https://github.com/rafi/awesome-vim-colorschemes.git'
+Plug 'https://github.com/aklt/plantuml-syntax.git'
 call plug#end()
 
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
