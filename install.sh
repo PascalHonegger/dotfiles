@@ -13,3 +13,5 @@ ln -sf $dir/bashrc ~/.bashrc
 echo "Creating symlink to vimrc in home/config/nvim directory."
 mkdir -p ~/.config/nvim/
 ln -sf $dir/init.vim ~/.config/nvim/init.vim 
+ln -sf $dir/coc-settings.json ~/.config/nvim/coc-settings.json
+

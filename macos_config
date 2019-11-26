@@ -1,6 +1,5 @@
 # Disable mouse acceleration
 defaults write .GlobalPreferences com.apple.mouse.scaling -1
 
-# Fix vscode vim plugin
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
-
+# Disable press and hold
+defaults write -g ApplePressAndHoldEnabled -bool false
