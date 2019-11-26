@@ -40,6 +40,10 @@ set nowrap                " don't wrap text
 
 " Convenience settings
 
+" Set the filetype based on the file's extension, overriding any
+" 'filetype' that has already been set
+au BufRead,BufNewFile *.asm set filetype=nasm
+
 " Map § to escape because escape is pain on the macbook touchbar 
 :imap § <Esc>
 
