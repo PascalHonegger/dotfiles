@@ -1,4 +1,24 @@
 {
+    // Require .prettierrc
+    "prettier.requireConfig": true,
+
+    // Tslint on save
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+
+    "python.jediEnabled": false,
+
+    // Run prettier (and others)
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "json",
+        "markdown",
+        "Markdown",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
     "languageserver": {
         "ccls": {
             "command": "ccls",
