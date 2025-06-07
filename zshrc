@@ -104,3 +104,6 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.aliases
 
+# Local overrides
+source ~/.zshrc.local
+
