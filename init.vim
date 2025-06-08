@@ -13,17 +13,9 @@ set pyxversion=3
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'https://github.com/rafi/awesome-vim-colorschemes.git'
 Plug 'https://github.com/aklt/plantuml-syntax.git'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
-Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-tslint', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-css', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-highlight', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-lists', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Install coc plugins manually / at request:
+" :CocInstall coc-snippets coc-json coc-python coc-tsserver coc-prettier coc-eslint coc-css coc-highlight coc-lists
 call plug#end()
 
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
